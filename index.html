@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score keeper</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+    <h1>Score keeper</h1>
+    <div class="container-img">
+        <img src="./images/ping-pong-illustration-designed-by-freepik.jpg" alt="Ping-Pong">
+    </div>
+    <div class="scores">
+        <h3>Scores</h3>
+        <p><span class="score-player1">0</span> to <span class="score-player2">0</span></p>
+        </div>
+        <div class="form-scores">
+        <label for="score-win">Winning score: </label>
+        <!-- set a default winning score value to 5 and minimun value 1 -->
+        <input type="number" id="score-win" value="5" min="1"/><br />
+    </div>
+    <div class="buttons">
+        <button id="btn-player1">+1 for Player 1</button>
+        <button id="btn-player2">+1 for Player 2</button>
+        <button id="btn-reset">Reset</button>
+    </div>
+    </main>  
+</main>  
+
+    <script src="./app.js"></script>
+</body>
+</html>
